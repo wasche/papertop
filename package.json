@@ -1,0 +1,15 @@
+{
+  "name": "papertop",
+  "version": "1.0.0",
+  "description": "Virtual Table Top and rpg system data",
+  "main": "index.js",
+  "repository": "git@github.com:wasche/papertop.git",
+  "author": "Wil Asche <wil@asche.us>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "flow-bin": "^0.93.0",
+    "mocha": "^5.2.0"
+  }
+}
