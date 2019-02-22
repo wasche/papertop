@@ -7,5 +7,7 @@
 [lints]
 
 [options]
+module.name_mapper='^@tools' ->'<PROJECT_ROOT>/tools'
+module.name_mapper='^@data' ->'<PROJECT_ROOT>/systems'
 
 [strict]
