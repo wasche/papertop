@@ -12,6 +12,9 @@ import TextField from '@material-ui/core/TextField'
 import { makeStyles } from '@material-ui/styles'
 
 const useStyles = makeStyles(theme => ({
+  wrapper: {
+    padding: 0,
+  },
   ranks: {
     margin: '0 8px',
     maxWidth: '4em',
@@ -32,8 +35,8 @@ const Skill = ({ id }: Props) => {
   const [ranks, setRanks] = useState(0)
   const [attr, setAttr] = useState('')
   return (
-    <ListItem>
-      <Grid container alignItems='baseline'>
+    <ListItem className={classes.wrapper}>
+      <Grid container alignItems='baseline' wrap='nowrap'>
         <TextField
           id={`skill-${id}`}
           placeholder='skill name'
